@@ -62,6 +62,7 @@ def get_place():
 def addline():
     global count
 
+    #TODO maybe refactoring into functions
     bag = {
         1: get_determiner().capitalize() + " " + get_noun(),
         2: get_determiner().capitalize() + " " + get_adjective() + " " + get_noun(),
